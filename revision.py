@@ -33,15 +33,16 @@ print(highest_number([5,7,11,34]))
 
 
 # Write a Python function that takes a list of strings as input and returns a new list 
-# with all the strings capitalized.          
-def capitalize_str(words):
+# with all the strings capitalized. 
+         
+def capitalise_str(words):
     add_empty =[]
     for word in words:
-        add_empty.append(word.capitalized)
+        add_empty.append(word.capitalize())
     return add_empty
-    
-    
-    
-                
+# print(capitalise_str(["mary","jane"]))
 
 
+   
+  
+    
