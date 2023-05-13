@@ -25,14 +25,17 @@ else:
 # Write a Python program that takes a list of numbers as input and outputs the second largest 
 # number in the list using conditional statements and a for loop.
 # def find_second_largest_number(numbers):
-#     large_number = None
-#     second_number =None
+#     large_number = 0
+#     second_number = 0
 #     for num in numbers:
-#         if large_number is None:
+#         if large_number is 0:
 #             large_number = num
 #             continue
 #         if num > large_number:
 #             second_number = large_number
+ 
+
+de
     
 # Write a Python program that takes a year as input and determines if it is a leap year.
 def find_leap_year(years):
