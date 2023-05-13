@@ -41,7 +41,7 @@ def nums(function,*args):
     
 
 # Write a function that takes an unknown number of keyword arguments, each with a string value. 
-# The function should concatenate all the strings and return the resulting string
+# The function should concatenate all the strings and ret the resulting string
 def unkown_num(**kwargs):
      return "".join(kwargs.values())
  
